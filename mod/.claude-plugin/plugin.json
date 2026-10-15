@@ -1,0 +1,7 @@
+{
+  "name": "agentdock",
+  "version": "0.2.0",
+  "author": { "name": "patrick.cheung" },
+  "description": "For Claude Code, in the style of a dot-matrix sign: the account's usage windows as bars, tokens a model, a running line and a small animation, and the agents on offer and at work",
+  "types": "./types/index.d.ts"
+}

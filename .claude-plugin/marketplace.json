@@ -1,0 +1,12 @@
+{
+  "name": "agentdock",
+  "description": "AgentDock: a side pane for Claude Code with usage, tokens a model and agents",
+  "owner": { "name": "patrick.cheung" },
+  "plugins": [
+    {
+      "name": "agentdock",
+      "source": "./mod",
+      "description": "For Claude Code, in the style of a dot-matrix sign: the account's usage windows as bars, tokens a model, a running line and a small animation, and the agents on offer and at work"
+    }
+  ]
+}

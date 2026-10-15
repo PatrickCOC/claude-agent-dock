@@ -1,0 +1,14 @@
+# Laid down by Claude Code when the mod loads
+mod/.claude-plugin/types/
+
+# Local environment and credentials
+node_modules/
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+.claude/worktrees/
+*.log
+
+.DS_Store
+Thumbs.db
