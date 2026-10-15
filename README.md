@@ -1,5 +1,7 @@
 # AgentDock
 
+> **Status: development has stopped.** This repository is published as a record and for reference only. It is not maintained: no further development, issue handling or support is planned, and it may stop working with newer Claude Code releases. It is MIT licensed, so you are free to fork it.
+
 AgentDock is a [Claude Code](https://code.claude.com) plugin (a "mod") that draws a side pane inside Claude Code, styled as an early-2000s dot-matrix sign: red, green and amber lamps on black, a running line of text and a small UFO-and-cow animation.
 
 It shows usage and agent status, hands tasks to agents, and marks the conversation:
@@ -48,6 +50,10 @@ The pane opens by itself where the terminal is at least 144 columns wide. In a n
 - The running line is in capitals and figures (its lamps have no Chinese glyphs). A braille cell has one colour, so where two lamps of different colours share a cell, one colour wins. Models are a coloured block, not an icon; agents have no icon.
 - A mod cannot draw over the conversation, so Account Status sits at the top of the pane rather than above the chat.
 - Another mod that draws in the band above the prompt (for example the Claude Session Monitor mod) and this one cannot both have it while Account Status is there. They were not tried together.
+
+## Verification scope
+
+What was checked, on Windows 11 with Claude Code 2.1.300: `claude plugin validate` on the marketplace and on the plugin, `claude plugin test mod` (35 tests, using Claude Code's mock engine) and `tsc -p mod` (TypeScript 5, against Claude Code mod types taken from another plugin's cache, not laid down by this Claude Code version). The mod was last used interactively on Claude Code 2.1.296. Not checked: other operating systems, later Claude Code releases, use in agent view, running alongside other mods, and `/plugin marketplace add` against this public repository.
 
 ## Develop
 
