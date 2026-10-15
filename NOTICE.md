@@ -1,6 +1,6 @@
 # Notice
 
-AgentDock is the Claude Code mod in `mod/`. It was developed in a private repository, and this repository starts from its current state with a new history.
+AgentDock is the Claude Code mod in `mod/`, under the MIT License in `LICENSE`. It was developed in a private repository, and this repository starts from its current state with a new history.
 
 ## Claude Session Monitor
 

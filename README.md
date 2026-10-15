@@ -63,4 +63,4 @@ claude plugin test mod        # tests in mod/tests
 
 ## License
 
-No license has been chosen for AgentDock yet, so all rights are reserved by the author for now. `NOTICE.md` carries the MIT notice for the Claude Session Monitor project that the conversation rules derive from.
+MIT, see `LICENSE`. `NOTICE.md` carries the notice for the Claude Session Monitor project that the conversation rules derive from, which is under the same license.
